@@ -1,0 +1,24 @@
+# Code Description
+
+Project done with Python in Jupyter notebook
+
+# Section: Text Description and Exploration
+
+- The structure of hate/non-hate speech is explored
+- Exploration of missing values done
+
+# Section: Text Pre-processing
+
+- The training and test dataset are combined for pre-processing.
+- The combo dataset is cleaned using regex
+- The words were reduced to there base words using lemmatization and then tokenized.
+
+# Section: Text Visualization
+
+- The visualization is done using matplotlib and wordcloud.
+- Importance of hashtags are visualized.
+
+# Section: Training and Predicting
+
+- After splitting the combo dataset into training and test dataset, different classification algorithms were used to predict the target variable.
+- Out of all the algorithms, support vector classifier is chosen as it generated the highest score among the others.
